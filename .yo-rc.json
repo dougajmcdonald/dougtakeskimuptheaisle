@@ -1,0 +1,9 @@
+{
+  "generator-react-webpack": {
+    "appName": "dougtakeskimuptheaisle",
+    "style": "css",
+    "cssmodules": true,
+    "postcss": false,
+    "generatedWithVersion": 4
+  }
+}
