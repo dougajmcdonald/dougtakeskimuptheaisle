@@ -1,20 +1,15 @@
 import React from 'react';
-import cssmodules from 'react-css-modules';
-import Header from './Header';
-import WeddingDate from './WeddingDate';
-import Introduction from './Introduction';
-import Navigation from './Navigation';
-import './app.css';
+import SiteHeader from './SiteHeader';
+import SiteSection from './SiteSection';
+import './app.cssmodule.scss';
 
 class AppComponent extends React.Component {
 
   render() {
     return (
       <div className="index">
-        <Header />
-        <WeddingDate />
-        <Introduction />
-        <Navigation />
+        <SiteHeader />
+        <SiteSection />
       </div>
     );
   }

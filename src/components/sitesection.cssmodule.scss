@@ -1,0 +1,19 @@
+@import 'config';
+
+.sitesection-component {
+  background-color: $site-background;
+  height: 100em;
+  text-align: center;
+
+  h2 {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.sitesection-angled-bottom {
+  height: 100px;
+  width: 100%;
+  background-color: $site-background;
+  background:linear-gradient(to right bottom, $primary-colour 50%, $site-background 50%);
+}

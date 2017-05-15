@@ -1,0 +1,16 @@
+@import 'config';
+
+.siteheader-component {
+  font-size: 10em;
+  background-color: $primary-colour;
+  color: $text;
+  width: 80%;
+  margin: 10% auto;
+  border: 0.1em solid $text;
+  text-align: center;
+  transition: border 1s ease-in-out;
+
+  animation: borderFadeIn 10s;
+}
+
+

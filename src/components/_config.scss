@@ -1,0 +1,22 @@
+$font-stack: 'Open Sans', sans-serif;
+
+$primary-colour: #D9DBF1;
+$secondary-colour: #ACB0BD;
+
+$site-background: #D0CDD7;
+
+$text: #71677C;
+
+@keyframes borderFadeIn {
+    0%   { border: 0.1em solid transparent }
+    40%  { border-right: 0.1em solid $text; border-left: 0.1em solid $text }
+    80%  { border-bottom: 0.1em solid $text; border-top: 0.1em solid $text }
+    100% { border: 0.1em solid $text }
+}
+
+@keyframes borderFadeIn {
+    0%   { border: 0.1em solid transparent }
+    40%  { border-right: 0.1em solid $text; border-left: 0.1em solid $text }
+    80%  { border-bottom: 0.1em solid $text; border-top: 0.1em solid $text }
+    100% { border: 0.1em solid $text }
+}

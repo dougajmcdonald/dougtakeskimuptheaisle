@@ -1,7 +1,7 @@
 {
   "generator-react-webpack": {
-    "appName": "dougtakeskimuptheaisle",
-    "style": "css",
+    "appName": "doug-takes-kim-up-the-aisle",
+    "style": "sass",
     "cssmodules": true,
     "postcss": false,
     "generatedWithVersion": 4
