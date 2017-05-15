@@ -9,7 +9,7 @@ class SiteSection extends React.Component {
       <div>
         <div className="sitesection-angled-bottom" styleName="sitesection-angled-bottom"></div>
         <div className="sitesection-component" styleName="sitesection-component">
-          <h2>Time &amp; Place</h2>
+          <h2><i className="fa fa-lg fa-clock-o"></i> Time &amp; Date</h2>
         </div>
       </div>
     );
